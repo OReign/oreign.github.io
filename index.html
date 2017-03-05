@@ -1,1 +1,90 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oraine Swaby</title>
+	<link rel= "stylesheet" type="text/css" 
+	href="css/styles.css" />
+	<link rel= "stylesheet" type="text/css" 
+	href="css/styles.css" />
+	<link rel="icon" href="../image/bust.png" >
+</head>
+
+<body>
+
+<!-- Navigation bar links -->
+	<ul>
+		<li><a href="#About">About Me</a></li>
+    	<li><a href="#Port">Portfolio</a></li>
+    	<li><a href="#Hobbs">Hobbies/Interests</a></li>
+    	<li><a href="#Contact">Contact</a></li>
+    </ul>
+
+	<header>
+		<h1>Oraine Swaby</h1>
+		<h4>Aspiring Web and Software Developer, Avid Reader, Budding Writer, Growing Game Master</h4>
+	</header>
+	
+
+<section id="About"> <!-- Each section has an id for linking purposes-->
+  <h2>All About Me</h2>
+  <p>
+  <img src="image/OraineSwaby.jpg" alt="Profile Picture" style="float:left;width:20%;height:20%;">
+  What can I say about myself? I'm a confident idealist with a free spirit and curious nature. I look outside and I wonder, 'Just what waits for me today? Good? Bad? Something in between?' Just as the disney song says you can't step in the same river twice, every moment in a chance for something new. The world is filled with interesting people who do interesting things, and I'd like to think that I myself am one of them.<br><br>
+  If there is one thing that has been consistence with me since I was a lil' Swaby, is my love of fiction. Fantasy, Science and Speculative Fiction, Urban Fantasy, even mystery and a romance novel just to see what the allure was. From it comes that spark of curiosity. After all, every book holds not just a story, but an entire world. From those worlds I can see things to learn about my own, and it gives me something to read further into.<br><br>
+  If I'm happy for one thing about my time and surroundings, it is how easy it is to learn. Libraries and the Internet are boundless resources of so much just waiting to be tapped. To attend school is just the gate to further learning. School helps you see the possiblities that exist. It was from Michael Crichton's The Lost World that I was first introduced to the Fractal Nature of Knowledge. You will never learn it all, and you can never learn it all. The more you learn, the more you'll find there is to learn about what you thought you already mastered.<br><br>
+  Beleive me, I'm not complaining.<br><br>
+  As a man of many interests, from biology to society, geography to physics, philosphy to psychology, the fact that I can always find something new leaves me feeling warming inside.<br><br>
+  The realm of technology is a lot like that. Even more so as we continually invent and develop more, ever pushing the envelope, ever expanding that canvas. As it currently stands, I'm taking the first few steps into this field, and while exploring new lands on my own two feet is a bit daunting for one who likes the comforts of home and a good book, exploring the scope of knowledge? That is one adventure I can't wait to go on!
+  </p>
+</section>
+<br>
+<section id="Port"><br>
+  <h2>Portfolio</h2> <!-- Images were used for linking to github and google drive  -->
+  <p>  
+  <a href="https://github.com/OReign" target="_blank">
+  <img src="image/github.png" alt="GitHub Link" style="float:left; width:42px;height:42px;border:0;"></a>
+  <br>My Technical Project Works can be found on my GitHub, under the name OReign. Feel free the check them out. It is a work in progress as I've only just started on my journey, but you can be sure it will grow.
+  <br><br>
+  <a href="https://goo.gl/LG6TRk" target="_blank">
+  <img src="image/drive.png" alt="Google Drive Link" style="float:left; width:42px;height:42px;border:0;"></a>
+  <br>
+  I have also dabbled in a bit of graphic design, having worked on program books for my previous employers. You can take a peek at those too in my google drive.</p>
+</section>
+<br>
+
+<section id="Hobbs"><br>
+	<h2>Hobbies and Interests</h2>
+	<p>When it comes to my free time, I tend to split my interests. I am an avid reader, and always like to have some reading material on hand, if not a webnovel, then something on an ereader or just a traditional book. They might be a bit more to carry, but the feel of pages and the spine of a book is something that I'll never not love.<br><br>
+	Writing is the other side of my interests. Writing is a skill that is ever developing, and one that does take focus and willpower to do, but the reward of building your own world and story and comminicating it with others is honestly worth the effort you put in.<br><br>
+	I am also an avid table top gamer, with a fairly lively circle of friends who get together online and play or games through chatrooms and collaborative documents. One of my goals it to create a website that we can use to better connect and game together. It's hard work being the Game Master, but it's fun.<br><br>
+	While I don't watch too much television, I am a massive fan of Stargate, as well as My Little Pony and Series 1-6 of Doctor Who. 
+	</p>
+</section>
+
+<section id="Contact"><br>
+  <h2>Get in Touch!</h2>
+  <p>Interested in getting in touch with me? You can use the form below or <a href="mailto:otswaby@gmail.com?subject=Hello%20Oraine"
+target="_top">email me</a> directly.</p>
+
+
+ 	<!-- Form using java script for validation -->
+	<form name="Form1" action="mailto:otswaby@gmail.com" onsubmit="return validateForm()" method="post" enctype="text/plain">
+		Name:<br>
+		<input type="text" name="name"><br>
+		E-mail:<br>
+		<input type="text" name="mail"><br>
+		Comment:<br>
+		<input type="text" name="comment" size="50"><br><br>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+	</form>
+	<script src="js/scripts.js"></script>
+<br><br><br>
+</body>
+
+<footer>
+	<p id="foot">Design and website by Oraine Swaby<br>
+	Last update: 03/04/2017</p>
+</footer>
+
+</html>

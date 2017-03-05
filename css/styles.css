@@ -1,0 +1,91 @@
+h1
+{color: #808080;
+text-align: right;
+ font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h2
+{color: purple;
+text-align: right;
+font-family: "Times New Roman", Georgia, Serif;
+}
+
+h4
+{color: #808080;
+text-align: right;
+font-family: "Times New Roman", Georgia, Serif;
+}
+
+body {
+	/* Background image */
+    background-image: url("../image/dusk.png");
+    /* Image commisioned from Rish--Loo 
+    http://rish--loo.deviantart.com/*/
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+footer {
+	text-align: center;
+	font-size: .5em;
+	font-family: "verdana", sans-serif;
+}
+
+ul {  /* Describing the properies of the list, removing
+	the bullets and padding and such, as well as adding the 
+	colour of the bar*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li { /* Alignment */
+    float: left;
+}
+
+li a {  /* Setting the clickable area and the font colour,
+basically making it a button/box on the bar */
+    display: block;
+    color: #DDF6B5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul { /* Fixing the bar so it remains as you scroll */
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+img {
+	padding: 15px;
+}
+
+header {
+	width: 1000px;
+	margin: center;
+	padding-top: 20px; 
+	/* positioning and moving below fixed nav bar */
+}
+
+nav{
+	width: 1000px;
+	margin: auto;
+}
+
+section {
+    width: 1000px;
+    margin: 25px 100px;
+    /* border: 1px solid red; */
+    img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
